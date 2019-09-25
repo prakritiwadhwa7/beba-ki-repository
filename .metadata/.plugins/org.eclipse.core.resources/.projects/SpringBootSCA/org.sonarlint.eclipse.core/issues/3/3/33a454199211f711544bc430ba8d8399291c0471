@@ -1,0 +1,4 @@
+
+ssquid:S2095"GUse try-with-resources or close this "CSVReader" in a "finally" clause.(˜š­ÂûÿÿÿÿHRBLOCKERZBUG
+isquid:S1854">Remove this useless assignment to local variable "nextRecord".(ŸøòHRMAJORZ
+CODE_SMELL

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.16.0" timestamp="2019-09-23T17:00:00.212">
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\App.java">
+<violation beginline="11" endline="21" begincolumn="18" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.philips.pms" class="App" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\IcuController.java">
+<violation beginline="30" endline="30" begincolumn="25" endcolumn="50" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.controller" class="IcuController" method="createBeds" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="38" endline="38" begincolumn="25" endcolumn="56" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.controller" class="IcuController" method="getBedsDetails" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="46" endline="46" begincolumn="25" endcolumn="92" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.controller" class="IcuController" method="getBedDeatils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\PatientController.java">
+<violation beginline="41" endline="41" begincolumn="25" endcolumn="57" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.controller" class="PatientController" method="registerPatient" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Initialiser.java">
+<violation beginline="22" endline="22" begincolumn="25" endcolumn="39" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.generator" class="Initialiser" method="initialise" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Randomiser.java">
+<violation beginline="10" endline="10" begincolumn="25" endcolumn="55" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.generator" class="Randomiser" method="randomInt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="14" endline="14" begincolumn="25" endcolumn="79" rule="UselessParentheses" ruleset="Code Style" package="com.philips.pms.generator" class="Randomiser" method="randomDouble" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\sockets\ISessionMessageSender.java">
+<violation beginline="9" endline="9" begincolumn="16" endcolumn="84" rule="UnnecessaryModifier" ruleset="Code Style" package="com.philips.pms.generator.sockets" class="ISessionMessageSender" method="sendMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'sendMessage': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\IBedHandler.java">
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="42" rule="UnnecessaryModifier" ruleset="Code Style" package="com.philips.pms.icu" class="IBedHandler" method="addBeds" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'addBeds': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\IDischarger.java">
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="50" rule="UnnecessaryModifier" ruleset="Code Style" package="com.philips.pms.icu" class="IDischarger" method="unsubscribeBed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'unsubscribeBed': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Constants.java">
+<violation beginline="3" endline="29" begincolumn="9" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.philips.pms.objects" class="Constants" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="3" endline="29" begincolumn="9" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.philips.pms.objects" class="Constants" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Constants' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\ListData.java">
+<violation beginline="10" endline="70" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.philips.pms.objects" class="ListData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="10" endline="70" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.philips.pms.objects" class="ListData" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ListData' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\PatientFeatures.java">
+<violation beginline="13" endline="14" begincolumn="16" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="com.philips.pms.objects" class="PatientFeatures" method="PatientFeatures" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\PatientVitals.java">
+<violation beginline="8" endline="10" begincolumn="16" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="com.philips.pms.objects" class="PatientVitals" method="PatientVitals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\patient\IPatientAdmiter.java">
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="47" rule="UnnecessaryModifier" ruleset="Code Style" package="com.philips.pms.patient" class="IPatientAdmiter" method="patientAdmit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'patientAdmit': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\AppTest1.java">
+<violation beginline="16" endline="17" begincolumn="40" endcolumn="13" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="com.philips.pms.test" class="AppTest1$ApplicationTests" method="contextLoads" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.controller" class="IcuControllerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.controller" class="IcuControllerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'com.philips.pms.patient.IPatientAdmiter'
+</violation>
+<violation beginline="35" endline="35" begincolumn="29" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="com.philips.pms.test.controller" class="IcuControllerTest" variable="bedHandler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'bedHandler'.
+</violation>
+<violation beginline="38" endline="38" begincolumn="29" endcolumn="37" rule="UnusedPrivateField" ruleset="Best Practices" package="com.philips.pms.test.controller" class="IcuControllerTest" variable="discharge" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'discharge'.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.controller" class="PatientControllerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'com.philips.pms.controller.IcuController'
+</violation>
+<violation beginline="34" endline="34" begincolumn="33" endcolumn="44" rule="UnusedPrivateField" ruleset="Best Practices" package="com.philips.pms.test.controller" class="PatientControllerTest" variable="patientAdmit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'patientAdmit'.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\InitaliserTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.generator" class="InitaliserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\WriteSchedulerTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.generator" class="WriteSchedulerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java">
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="52" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.generator.socket" class="WebSocketConfigTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.springframework.test.web.servlet.MockMvc'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\BedHandlerTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.icu" class="BedHandlerTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="15" endline="15" begincolumn="91" endcolumn="91" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="com.philips.pms.test.icu" class="BedHandlerTest" method="test" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\DischargerImplTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.icu" class="DischargerImplTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\patient\PatientAdmiterTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.philips.pms.test.patient" class="PatientAdmiterTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\BedTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="BedTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="19" endline="19" begincolumn="17" endcolumn="53" rule="UseAssertEqualsInsteadOfAssertTrue" ruleset="Best Practices" package="com.pms.philips.test.objects" class="BedTest" method="test" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useassertequalsinsteadofasserttrue" priority="3">
+Use assertEquals(x, y) instead of assertTrue(x.equals(y))
+</violation>
+<violation beginline="20" endline="20" begincolumn="17" endcolumn="55" rule="UseAssertEqualsInsteadOfAssertTrue" ruleset="Best Practices" package="com.pms.philips.test.objects" class="BedTest" method="test" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useassertequalsinsteadofasserttrue" priority="3">
+Use assertEquals(x, y) instead of assertTrue(x.equals(y))
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientDetailsTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientDetailsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientFeaturesTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientFeaturesTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="52" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientFeaturesTest" method="test" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="55" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientFeaturesTest" method="test" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientVitalsTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientVitalsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientsTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientsTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="15" endline="15" begincolumn="26" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.pms.philips.test.objects" class="PatientsTest" method="test" variable="p" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'p'.
+</violation>
+</file>
+<file name="C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\icucontroller.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="com.pms.philips.test.objects" class="icucontroller" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="7" endline="14" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.pms.philips.test.objects" class="icucontroller" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'icucontroller' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,169 @@
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 11 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\App.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 39 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\IcuController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 96 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\PatientController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 139 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\SwaggerConfiguration.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 172 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Initialiser.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Class Contains Public Variable: patientFeatures
+Line: 177 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Initialiser.java
+The class variable may be accessed and modified by other classes without the use of getter/setter methods. It is considered unsafe to have public fields or methods in a class unless required as any method, field, or class that is not private is a potential avenue of attack. It is safer to provide accessor methods to variables in order to limit their accessibility.
+Potentially Unsafe Code - java.util.Random
+Line: 193 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Randomiser.java
+This package is flawed and produces predictable values for any given seed which are easily reproducible once the starting seed is identified.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 195 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\Randomiser.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 222 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\WriteScheduler.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Class Contains Public Variable: IOException
+Line: 259 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\sockets\ISessionMessageSender.java
+The class variable may be accessed and modified by other classes without the use of getter/setter methods. It is considered unsafe to have public fields or methods in a class unless required as any method, field, or class that is not private is a potential avenue of attack. It is safer to provide accessor methods to variables in order to limit their accessibility.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 274 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\sockets\SessionMessageSenderImpl.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 308 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\sockets\SocketHandler.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 371 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\generator\sockets\WebSocketConfig.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 387 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\BedHandler.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 392 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\BedHandler.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 408 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\DischargerImpl.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Class Contains Public Variable: number
+Line: 425 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\IBedHandler.java
+The class variable may be accessed and modified by other classes without the use of getter/setter methods. It is considered unsafe to have public fields or methods in a class unless required as any method, field, or class that is not private is a potential avenue of attack. It is safer to provide accessor methods to variables in order to limit their accessibility.
+Potentially Unsafe Code - Class Contains Public Variable: number
+Line: 432 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\icu\IDischarger.java
+The class variable may be accessed and modified by other classes without the use of getter/setter methods. It is considered unsafe to have public fields or methods in a class unless required as any method, field, or class that is not private is a potential avenue of attack. It is safer to provide accessor methods to variables in order to limit their accessibility.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 436 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Bed.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 481 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Constants.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 517 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\ListData.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 519 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\ListData.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 520 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\ListData.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 580 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\PatientDetails.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 612 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\PatientFeatures.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 644 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Patients.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 668 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\PatientVitals.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Class Contains Public Variable: number
+Line: 708 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\patient\IPatientAdmiter.java
+The class variable may be accessed and modified by other classes without the use of getter/setter methods. It is considered unsafe to have public fields or methods in a class unless required as any method, field, or class that is not private is a potential avenue of attack. It is safer to provide accessor methods to variables in order to limit their accessibility.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 717 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\patient\PatientAdmiterImpl.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 740 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\AppTest1.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 743 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\AppTest1.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 780 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 848 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 889 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\InitaliserTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 909 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\WriteSchedulerTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 945 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Comment Indicates Potentially Unfinished Code - 
+ Line: 959 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 965 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 971 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 977 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 983 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 989 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 995 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1001 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1007 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1013 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1019 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1025 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1031 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1037 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1043 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1049 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Comment Indicates Potentially Unfinished Code - 
+ Line: 1055 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1081 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\BedHandlerTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1101 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\DischargerImplTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1123 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\patient\PatientAdmiterTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1148 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\BedTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1171 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\icucontroller.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1187 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientDetailsTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1207 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientFeaturesTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1230 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientsTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1251 - C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master(4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientVitalsTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.

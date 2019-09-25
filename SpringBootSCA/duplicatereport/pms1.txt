@@ -1,0 +1,56 @@
+Similarity Analyser 2.5.10 - http://www.harukizaemon.com/simian
+Copyright (c) 2003-2018 Simon Harris.  All rights reserved.
+Simian is not free unless used solely for non-commercial or evaluation purposes.
+{failOnDuplication=true, ignoreCharacterCase=true, ignoreCurlyBraces=true, ignoreIdentifierCase=true, ignoreModifiers=true, ignoreStringCase=true, threshold=2}
+Found 2 duplicate lines with fingerprint 2df755f93977be8aafc9f4caa5cd9431 in the following files:
+ Between lines 27 and 28 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java
+ Between lines 28 and 29 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java
+Found 2 duplicate lines with fingerprint 38290d630492d77b9c3052d8636f95f9 in the following files:
+ Between lines 47 and 48 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java
+ Between lines 54 and 55 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java
+Found 2 duplicate lines with fingerprint 49d7cf512c9d5cee057e39439f08d0ae in the following files:
+ Between lines 14 and 15 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\PatientController.java
+ Between lines 16 and 17 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\controller\IcuController.java
+Found 2 duplicate lines with fingerprint fc97b507fbdd7001fe93b1d143f05e2c in the following files:
+ Between lines 19 and 20 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Patients.java
+ Between lines 41 and 42 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\main\java\com\philips\pms\objects\Bed.java
+Found 2 duplicate lines with fingerprint 19cee9bc3687d3602170050a51968db0 in the following files:
+ Between lines 39 and 40 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java
+ Between lines 45 and 46 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java
+Found 2 duplicate lines with fingerprint 5c1c35cc908d80d856e48dc7ea6ec121 in the following files:
+ Between lines 13 and 14 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientVitalsTest.java
+ Between lines 12 and 13 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientsTest.java
+ Between lines 11 and 12 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientFeaturesTest.java
+ Between lines 11 and 12 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\PatientDetailsTest.java
+ Between lines 9 and 10 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\icucontroller.java
+ Between lines 12 and 13 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\pms\philips\test\objects\BedTest.java
+ Between lines 14 and 15 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\patient\PatientAdmiterTest.java
+ Between lines 13 and 14 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\DischargerImplTest.java
+ Between lines 12 and 13 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\BedHandlerTest.java
+ Between lines 11 and 12 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\WriteSchedulerTest.java
+ Between lines 15 and 16 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\InitaliserTest.java
+Found 2 duplicate lines with fingerprint c7c2977f79edfeb436a774ccb1488d5c in the following files:
+ Between lines 31 and 33 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\PatientControllerTest.java
+ Between lines 32 and 34 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\controller\IcuControllerTest.java
+Found 2 duplicate lines with fingerprint 94ebcdff3e6c3194d62d31d83d80f2e7 in the following files:
+ Between lines 115 and 118 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 73 and 76 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Found 2 duplicate lines with fingerprint e746dd0b8ae0bfba09250586ad296463 in the following files:
+ Between lines 18 and 19 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\patient\PatientAdmiterTest.java
+ Between lines 15 and 16 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\DischargerImplTest.java
+Found 2 duplicate lines with fingerprint 330fcd77ebf6c251570f49f6c21f0069 in the following files:
+ Between lines 127 and 130 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 121 and 124 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 109 and 112 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 103 and 106 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 97 and 100 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 91 and 94 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 85 and 88 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 79 and 82 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+ Between lines 67 and 70 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\generator\socket\WebSocketConfigTest.java
+Found 3 duplicate lines with fingerprint 3198f2a23af45002f8795eba18403fa5 in the following files:
+ Between lines 12 and 14 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\BedHandlerTest.java
+ Between lines 13 and 15 in C:\Users\320067798\OneDrive - Philips\Desktop\PMS-master (4)\PMS-master\JavaLogic\pms\src\test\java\com\philips\pms\test\icu\DischargerImplTest.java
+Found 74 duplicate lines in 36 blocks in 18 files
+Processed a total of 465 significant (1270 raw) lines in 39 files
+Processing time: 0.749sec

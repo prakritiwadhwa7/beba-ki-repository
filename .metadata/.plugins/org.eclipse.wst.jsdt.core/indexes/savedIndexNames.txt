@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\static-code-analyzer-webservice-master\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+804930665.index
+3892329857.index
+1233424918.index
+453998200.index
+1380535172.index

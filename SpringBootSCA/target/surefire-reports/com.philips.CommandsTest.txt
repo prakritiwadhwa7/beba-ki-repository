@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.philips.CommandsTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in com.philips.CommandsTest
+getcyviscommandTest(com.philips.CommandsTest)  Time elapsed: 0.004 s  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [16]; expected:<[C:\Users]\complexityreport\Ex...> but was:<["C:\Users"]\complexityreport\Ex...>
+	at com.philips.CommandsTest.getcyviscommandTest(CommandsTest.java:138)
+Caused by: org.junit.ComparisonFailure: expected:<[C:\Users]\complexityreport\Ex...> but was:<["C:\Users"]\complexityreport\Ex...>
+	at com.philips.CommandsTest.getcyviscommandTest(CommandsTest.java:138)
+

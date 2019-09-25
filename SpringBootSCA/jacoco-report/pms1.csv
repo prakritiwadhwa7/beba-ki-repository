@@ -1,0 +1,38 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,com.philips.pms.test.generator,InitaliserTest,0,15,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.generator,WriteSchedulerTest,12,3,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.philips.pms.test.icu,DischargerImplTest,20,7,0,0,4,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.icu,BedHandlerTest,14,7,0,0,2,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.patient,PatientAdmiterImpl,32,3,2,0,5,1,2,1,1,1
+JaCoCo Coverage Report,com.philips.pms.generator,WriteScheduler,49,7,0,0,10,2,3,2,3,2
+JaCoCo Coverage Report,com.philips.pms.generator,Randomiser,13,15,0,0,1,3,1,2,1,2
+JaCoCo Coverage Report,com.philips.pms.generator,Initialiser,0,31,0,0,0,6,0,3,0,3
+JaCoCo Coverage Report,com.philips.pms.test.patient,PatientAdmiterTest,21,11,0,0,5,3,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.icu,DischargerImpl,31,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.icu,BedHandler,28,6,2,0,3,2,1,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.generator.socket,WebSocketConfigTest.new WebSocketSession() {...},35,0,0,0,18,0,18,0,18,0
+JaCoCo Coverage Report,com.philips.pms.test.generator.socket,WebSocketConfigTest,31,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.objects,ListData,61,4,0,0,27,2,15,1,15,1
+JaCoCo Coverage Report,com.philips.pms.objects,Bed,49,2,0,0,10,1,5,1,5,1
+JaCoCo Coverage Report,com.philips.pms.objects,PatientDetails,0,19,0,0,0,8,0,3,0,3
+JaCoCo Coverage Report,com.philips.pms.objects,PatientFeatures,0,28,0,0,0,12,0,6,0,6
+JaCoCo Coverage Report,com.philips.pms.objects,PatientVitals,0,30,0,0,0,12,0,6,0,6
+JaCoCo Coverage Report,com.philips.pms.objects,Patients,21,2,0,0,4,1,2,1,2,1
+JaCoCo Coverage Report,com.philips.pms,App,8,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.generator.sockets,SocketHandler,38,0,0,0,10,0,4,0,4,0
+JaCoCo Coverage Report,com.philips.pms.generator.sockets,SocketHandler.new TimerTask() {...},62,0,4,0,12,0,4,0,2,0
+JaCoCo Coverage Report,com.philips.pms.generator.sockets,SessionMessageSenderImpl,27,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.philips.pms.generator.sockets,WebSocketConfig,16,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.test,AppTest1.ApplicationTests,7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.test,AppTest1,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.philips.pms.controller,SwaggerConfiguration,33,0,0,0,14,0,3,0,3,0
+JaCoCo Coverage Report,com.philips.pms.controller,PatientController,17,0,0,0,4,0,4,0,4,0
+JaCoCo Coverage Report,com.philips.pms.controller,IcuController,32,0,0,0,5,0,5,0,5,0
+JaCoCo Coverage Report,com.philips.pms.test.controller,PatientControllerTest,58,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,com.philips.pms.test.controller,IcuControllerTest,75,0,0,0,10,0,3,0,3,0
+JaCoCo Coverage Report,com.pms.philips.test.objects,icucontroller,0,6,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientsTest,5,3,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientDetailsTest,0,18,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,BedTest,26,3,0,0,8,1,1,1,1,1
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientFeaturesTest,2,38,2,2,0,8,2,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientVitalsTest,0,50,0,0,0,10,0,2,0,2

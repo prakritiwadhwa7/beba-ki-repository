@@ -1,0 +1,17 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,com.philips.pms.test.generator,InitaliserTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.generator,WriteSchedulerTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.icu,DischargerImplTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.icu,BedHandlerTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test.patient,PatientAdmiterTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.philips.pms.test,AppTest1.ApplicationTests,10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.test,AppTest1,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.philips.pms.test.generator.socket,WebSocketConfigTest,8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.philips.pms.test.controller,IcuControllerTest,15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.philips.pms.test.controller,PatientControllerTest,15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.pms.philips.test.objects,icucontroller,0,6,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientDetailsTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,BedTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientFeaturesTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientVitalsTest,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.pms.philips.test.objects,PatientsTest,0,8,0,0,0,2,0,2,0,2

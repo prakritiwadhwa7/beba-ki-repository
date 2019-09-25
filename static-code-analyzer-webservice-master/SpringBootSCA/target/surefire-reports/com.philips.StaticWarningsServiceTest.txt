@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.philips.StaticWarningsServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.163 s <<< FAILURE! - in com.philips.StaticWarningsServiceTest
+parseXmlTest(com.philips.StaticWarningsServiceTest)  Time elapsed: 0.16 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at com.philips.StaticWarningsServiceTest.parseXmlTest(StaticWarningsServiceTest.java:15)
+

@@ -1,0 +1,8 @@
+
+d
+squid:S106X"9Replace this use of System.out or System.err by a logger.(†¥HšRMAJORZ
+CODE_SMELL
+{squid:S1192"FDefine a constant instead of duplicating this literal "start" 5 times.(˜”ÌşÿÿÿÿH›RCRITICALZ
+CODE_SMELL
+squid:S1192<"RDefine a constant instead of duplicating this literal "\\target\\classes" 3 times.(ñÍ9HœRCRITICALZ
+CODE_SMELL
