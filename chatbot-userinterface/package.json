@@ -14,7 +14,7 @@
     "@angular/animations": "~8.2.4",
     "@angular/common": "~8.2.4",
     "@angular/compiler": "~8.2.4",
-    "@angular/core": "~8.2.4",
+    "@angular/core": "~11.0.5",
     "@angular/forms": "~8.2.4",
     "d3": "^5.7.0",
     "ng2-nvd3": "^2.0.0",
